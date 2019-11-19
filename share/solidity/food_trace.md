@@ -37,11 +37,11 @@
 
 创建新的solidity合约，并选择编译器版本进行编译。
 
-![remix_prepare](https://github.com/lynlyn/L/blob/master/share/img/remix_prepare.png)
+![remix_prepare](https://github.com/harrylee2015/L/tree/master/share/img/remix_prepare.png)
 
 编译成功后，可以使用ABI、Bytecode进行合约的创建。
 
-![remix_compile](https://github.com/lynlyn/L/blob/master/share/img/remix_compile.png)
+![remix_compile](https://github.com/harrylee2015/L/tree/master/share/img/remix_compile.png)
 
 * remix生成的abi存在换行、空格等字符，chain33实现的evm不能直接使用，还需要进行进一步的格式化操作：去除换行、空格。
 
@@ -60,7 +60,7 @@
 ##### 2.2.1 插件安装
 打开IntelliJ IDEA， 在File->Settings->Plugins选项卡中，查找IntelliJ-Solidity插件进行安装。
 
-![IntelliJ_Solidity插件查找](https://github.com/lynlyn/L/blob/master/share/img/intelliJ_solidity.png)
+![IntelliJ_Solidity插件查找](https://github.com/harrylee2015/L/tree/master/share/img/intelliJ_solidity.png)
 
 ##### 2.2.2 solc安装
 如果本地已有geth节点，可以直接使用节点自带solc。
@@ -72,7 +72,7 @@
 ##### 2.2.3 编译
 使用Build->Compile Solidity编译合约，编译后的结果可以在项目栏中看到。
 
-![Compile_Solidity合约编译](https://github.com/lynlyn/L/blob/master/share/img/compile_solidity.png)
+![Compile_Solidity合约编译](https://github.com/harrylee2015/L/tree/master/share/img/compile_solidity.png)
 
 使用生成的abi、bin文件进行合约的创建
 
